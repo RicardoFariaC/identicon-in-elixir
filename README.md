@@ -1,21 +1,16 @@
 # Identicon
 
-**TODO: Add description**
+Create minimalist icons generated using the Elixir programming language.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `identicon` to your list of dependencies in `mix.exs`:
+You'll need the Erlang OTP and Elixir installed in your PC. 
+After cloning the repository, you'll need to type `iex -S mix` inside project root folder.
 
-```elixir
-def deps do
-  [
-    {:identicon, "~> 0.1.0"}
-  ]
-end
+After that, you can type in `iex` the following command:
+
+```
+  Identicon.main("/*some text*/")
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/identicon>.
-
+And you'll get your identicon generated.
